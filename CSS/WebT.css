@@ -1,7 +1,7 @@
 /* Start Variables */
 :root {
     /* #10cab7 */
-    --main-color: #10cab7;
+    --main-color: rgba(199, 102, 12, 0.800);
     --secondary-color: #2c4755;
     --section-padding: 60px;
     --section-background: #f6f6f6;
@@ -201,7 +201,7 @@
   .features .feat {
     padding: 20px;
     text-align: center;
-  }
+    box-shadow: 0px 7px 9px 3px #1919221a;  }
   .features .feat i {
     color: var(--main-color);
   }
