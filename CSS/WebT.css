@@ -269,7 +269,7 @@ body {
   top: -50px;
   position: absolute;
   right: 0;
-  z-index: -1;
+  z-index: -1; 
 }
 .services .services-content .image img {
   width: 300px;
