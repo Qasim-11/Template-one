@@ -420,17 +420,23 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 22px;
 }
-.contact .info .social i {
-  margin-left: 10px;
+.contact .info .social a i {
   color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.contact .info .social a{
+
+  margin-left: 20px;
 }
 @media (max-width: 767px) {
   .contact .info .label,
   .contact .info .link {
     font-size: 25px;
   }
+  
 }
 /* End Contact */
 /* Start Footer */
