@@ -84,18 +84,19 @@ body {
 .header .links {
   position: relative;
 }
-.header .links:hover .icon span{
+/* .header .links:hover .icon span{
   width: 100%;
 }
 .header .links:hover .icon span:first-child{
   width: 60%;
-}
+} */
 
 .header .links .icon {
   width: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  cursor: pointer;
 }
 .header .links .icon span {
   background-color: #333;
@@ -132,9 +133,9 @@ body {
   right: 5px;
   top: -20px;
 }
-.header .links:hover ul {
+/* .header .links:hover ul {
   display: block;
-}
+} */
 .header .links ul li a {
   display: block;
   padding: 15px;
@@ -148,11 +149,6 @@ body {
 .header .links ul li:not(:last-child) a {
   border-bottom: 1px solid #ddd;
 }
-/* .landing .header{
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, .15);
-  backdrop-filter: blur(5px);  } */
 /* End Header */
 /* Start Landing Section */
 .landing {

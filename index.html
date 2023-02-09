@@ -29,12 +29,12 @@
         <div class="container">
           <img decoding="async" class="logo" src="images/logo.png" alt="" />
           <div class="links">
-            <span class="icon">
-              <span></span>
-              <span></span>
-              <span></span>
+            <span onclick="DisplayList()" class="icon">
+              <span id="s1"></span>
+              <span ></span>
+              <span id="s3"></span>
             </span>
-            <ul>
+            <ul id="List" >
               <li><a href="#services">Services</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#about">About</a></li>
@@ -66,7 +66,7 @@
         <div class="feat">
           <i class="fas fa-globe-asia fa-3x"></i>
           <h3>Your Product is Worldwide</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+          <p>Don't let your business fall behind, invest in a website today and see the results for yourself.</p>
         </div>
       </div>
     </div>
@@ -166,7 +166,7 @@
     </div>
     <!-- End Portfolio -->
     <!-- Start About -->
-    <div class="about">
+    <div id="about" class="about">
       <div class="container">
         <h2 class="special-heading">About</h2>
         <p>Less is more work</p>
@@ -176,14 +176,9 @@
           </div>
           <div class="text">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non,
-              fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!
-            </p>
-            <hr />
+              Having a website is an indispensable aspect of running a successful business in today's digital age. It provides a platform to showcase your products and services, increase brand visibility, and attract new customers.<hr/>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sapiente. Velit iure exercitationem
-              dolores nesciunt dolore. Eum officiis dolorum hic voluptate quaerat minima, similique inventore esse,
-              alias, sed quo officia?
+              A website helps establish your credibility and legitimacy, allowing potential customers to learn more about your company, products, and services.
             </p>
           </div>
         </div> 
@@ -191,7 +186,7 @@
     </div>
     <!-- End About -->  
     <!-- Start Contact --> 
-    <div class="contact">
+    <div id="contact" class="contact">
       <div class="container">
         <h2 class="special-heading">Contact</h2>
         <p>We are born to create</p>
@@ -211,6 +206,7 @@
     <!-- Start Footer -->
     <div class="footer">&copy; 2022 <span>Qasim</span> All Right Reserved</div>
     <!-- End Footer -->
+    <script src="script.js"></script>
   </body>
 </html>
 </html>
