@@ -21,3 +21,18 @@ function DisplayList() {
 }
   
 
+// Liknks for my websites
+
+
+  document.getElementById("website1").addEventListener("click", function() {
+    window.location.href = " https://qasim-11.github.io/PersonalPage/";
+  });
+
+  document.getElementById("website2").addEventListener("click", function() {
+    window.location.href = "https://qasim-11.github.io/ColorFliper/";
+  });
+
+  document.getElementById("website3").addEventListener("click", function() {
+    window.location.href = "https://qasim-11.github.io/JavaScriptProject/";
+  });
+
